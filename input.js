@@ -29,7 +29,7 @@ const directions = {
   }
 }
 
-export function getInputDirection () {
+export const getInputDirection = () => {
   lastInputDirection = inputDirection
   return inputDirection
 }
